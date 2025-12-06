@@ -71,6 +71,8 @@ def calculate_surplus_data(sales_row):
     """
     print("Surplus data is being calculated...")
     stock = SHEET.worksheet("Sheet3").get_all_values()
+    stock_row = stock[-1]
+    print(stock)
     
 def main():
     """
