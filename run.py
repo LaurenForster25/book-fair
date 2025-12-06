@@ -37,5 +37,11 @@ def validate_data(values):
     check that all values of data can be converted to integers
     """
     #print(values)
+    
+    try:
+        if len(values) != 10:
+            raise ValueError(
+                f"10 values are required for successful data entry, you only provided {len(values)}"
+            )
 
 get_sales_data()
