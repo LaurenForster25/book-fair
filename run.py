@@ -62,7 +62,7 @@ def update_sales_worksheet(data):
     sales_worksheet.append_row(data)
     print("You have successfully updated the sales worksheet!\n")
 
-def calculate_surplus_data(Sheet1_row):
+def calculate_surplus_data(sales_row):
     """
     Comparing the sales with the stock already had to calculate a surplus for each item.
     The surplus is found by subtracting the sales figure from the stock figure.
@@ -71,15 +71,14 @@ def calculate_surplus_data(Sheet1_row):
     """
     print("Surplus data is being calculated...")
     
-
- 
- def main():
+def main():
     """
     These are the main programme functions for the datasheet
     """
     data = get_sales_data()
     sales_data = [int(num) for num in data]
     update_sales_worksheet(sales_data)
+    calculate_surplus_data(sales_data)
 
 print("This is Heavenly Books Data Automation!\n")
 main()
