@@ -16,8 +16,6 @@ sales = SHEET.worksheet('Sheet1')
 
 data = sales.get_all_values()
 
-#print(data)
-
 def get_sales_data():
     """
     Retrieveing sales figures from user input 
@@ -33,14 +31,12 @@ while True:
     if validate_data(sales_data):
         print("The data you have entered is valid.")
         break
-    #print(f"The data provided is {data_str}")
 
 def validate_data(values):
     """
     2 functions in validate_data: Converts string values to integers + 
     check that all values of data can be converted to integers
     """
-    #print(values)
     
     try:
         [int(value) for value in values]
