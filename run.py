@@ -29,7 +29,10 @@ while True:
 
     data_str = input("Enter your sales here: ")
     sales_data = data_str.split(",")
-    validate_data(sales_data)
+    
+    if validate_data(sales_data):
+        print("The data you have entered is valid.")
+        break
     #print(f"The data provided is {data_str}")
 
 def validate_data(values):
