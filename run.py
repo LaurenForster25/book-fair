@@ -43,5 +43,7 @@ def validate_data(values):
             raise ValueError(
                 f"10 values are required for successful data entry, you only provided {len(values)}"
             )
+    except ValueError as e:
+        print("Invalid data: {e}, please try again!\n")
 
 get_sales_data()
