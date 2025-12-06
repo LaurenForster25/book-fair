@@ -13,3 +13,5 @@ GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDS)
 SHEET = GSPREAD_CLIENT.open('book-fair')
 
 sales = SHEET.worksheet('Sheet1')
+
+data = sales.get_all_values()
