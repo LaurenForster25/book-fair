@@ -117,10 +117,10 @@ def get_last_5_entries_sales():
     for ind in range(10):
         print(ind)
 
-def calculate_stock-data(data):
+def calculate_stock_data(data):
     
     
-def main():
+ def main():
     """
     These are the main programme functions for the datasheet
     """
