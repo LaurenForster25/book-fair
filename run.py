@@ -25,7 +25,7 @@ def get_sales_data():
         print("The data should be 10 numbers, separated by commas, see example below:")
         print("10, 11, 12, 13, 14, 15, 16, 17, 18, 19\n")
         
-        data_str = input("Enter your sales here: ")
+        data_str = input("Enter your sales here: \n")
         
         sales_data = data_str.split(",")
         
