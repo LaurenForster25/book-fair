@@ -104,8 +104,9 @@ def get_last_5_entries_sales():
     This will collect the data from the last five entries of the sales worksheet,
     returning the data as a list
     """
-    sales = SHEET.wroksheet("Sales")
-    column = sales.col_values()
+    sales = SHEET.worksheet("Sales")
+    column = sales.col_values(3)
+    print(column)
     
     
 def main():
@@ -120,3 +121,4 @@ def main():
    
 print("This is Heavenly Books Data Automation!\n")
 main()
+
