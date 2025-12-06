@@ -12,7 +12,7 @@ SCOPED_CREDS = CREDS.with_scopes(SCOPE)
 GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDS)
 SHEET = GSPREAD_CLIENT.open('book-fair')
 
-sales = SHEET.worksheet('Sheet1')
+sales = SHEET.worksheet('Sales')
 
 data = sales.get_all_values()
 
@@ -89,7 +89,7 @@ def calculate_surplus_data(sales_row):
     Negative surplus represents the books that had to be ordered in for the customer.
     """
     print("Surplus data is being calculated...")
-    stock = SHEET.worksheet("Sheet3").get_all_values()
+    stock = SHEET.worksheet("Stock").get_all_values()
     stock_row = stock[-1]
 
     surplus_data = []
@@ -106,9 +106,9 @@ def main():
     """
     data = get_sales_data()
     sales_data = [int(num) for num in data]
-    update_worksheet(sales_data, "sales")
+    update_worksheet(sales_data, "Sales")
     new_surplus_data = calculate_surplus_data(sales_data)
-    update_worksheet(new_surplus_data, "surplus")
+    update_worksheet(new_surplus_data, "Stock")
    
 print("This is Heavenly Books Data Automation!\n")
 main()
