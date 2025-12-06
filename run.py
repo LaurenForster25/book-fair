@@ -33,7 +33,7 @@ def get_sales_data():
 
 def validate_data(values):
     """
-    2 function in validate_date: Converts string values to integers + 
+    2 functions in validate_data: Converts string values to integers + 
     check that all values of data can be converted to integers
     """
     #print(values)
