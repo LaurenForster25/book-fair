@@ -72,6 +72,9 @@ def calculate_surplus_data(sales_row):
     print("Surplus data is being calculated...")
     stock = SHEET.worksheet("Sheet3").get_all_values()
     stock_row = stock[-1]
+
+    for stock, sales in zip(stock_row, sales_row):
+        surplus = stock - sales
     #print(stock_row)
     
 def main():
