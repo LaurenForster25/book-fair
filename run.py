@@ -146,7 +146,7 @@ print("This is Heavenly Books Data Automation!\n")
 #main()
 
 sales_columns = get_last_5_entries_sales()
-calculate_stock_data(sales_columns)
+stock_data = calculate_stock_data(sales_columns)
 
 
 
