@@ -33,6 +33,7 @@ def get_sales_data():
             print("The data you have entered is valid!")
             break
 
+    return sales_data
 
 def validate_data(values):
     """
