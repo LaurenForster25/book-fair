@@ -71,6 +71,16 @@ def validate_data(values):
 #   surplus_worksheet.append_row(data)
 #    print("You have successfully updated the surplus worksheet!\n")
 
+def update_worksheet(data, worksheet):
+    """
+    Recieves the list of data from user to be inserted into the worksheets.
+    Updates the relevant worksheet with the integers provided.
+    """
+    print(f"The {worksheet} worksheet is updating...\n")
+    worksheet_to_update = SHEET.worksheet(worksheet)
+    worksheet_to_update.append_row(data)
+    print(f"You have successfully updated the {worksheet} worksheet!\n")
+
 def calculate_surplus_data(sales_row):
     """
     Comparing the sales with the stock already had to calculate a surplus for each item.
