@@ -16,4 +16,4 @@ sales = SHEET.worksheet('Sheet1')
 
 data = sales.get_all_values()
 
-print(data)
+#print(data)
