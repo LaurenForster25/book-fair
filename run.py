@@ -8,3 +8,4 @@ SCOPE = [
 ]
 
 CREDS = Credentials.from_service_account_file('ss.json')
+SCOPED_CREDS = CREDS.with_scopes(SCOPE)
