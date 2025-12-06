@@ -70,6 +70,7 @@ def calculate_surplus_data(sales_row):
     Negative surplus represents the books that had to be ordered in for the customer.
     """
     print("Surplus data is being calculated...")
+    stock = SHEET.worksheet("Sheet3").get_all_values()
     
 def main():
     """
