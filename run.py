@@ -62,6 +62,15 @@ def update_sales_worksheet(data):
     sales_worksheet.append_row(data)
     print("You have successfully updated the sales worksheet!\n")
 
+def update_surplus_worksheet(data):
+    """
+    Adding a new row to surplus worksheet when updated
+    """
+    print("The surplus worksheet is updating...\n")
+    surplus_worksheet = SHEET.worksheet("Sheet2")
+    surplus_worksheet.append_row(data)
+    print("You have successfully updated the surplus worksheet!\n")
+
 def calculate_surplus_data(sales_row):
     """
     Comparing the sales with the stock already had to calculate a surplus for each item.
@@ -90,6 +99,5 @@ def main():
     update_sales_worksheet(sales_data)
     new_surplus_data = calculate_surplus_data(sales_data)
    
-
 print("This is Heavenly Books Data Automation!\n")
 main()
