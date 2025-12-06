@@ -18,19 +18,21 @@ data = sales.get_all_values()
 
 def get_sales_data():
     """
-    Retrieveing sales figures from user input 
+    Retrieving sales figures from user input 
     """
-while True:
-    print("Please enter the sales data from the last book fair")
-    print("The data should be 10 numbers, separated by commas, see example below:")
-    print("10, 11, 12, 13, 14, 15, 16, 17, 18, 19\n")
+    while True:
+        print("Please enter the sales data from the last book fair")
+        print("The data should be 10 numbers, separated by commas, see example below:")
+        print("10, 11, 12, 13, 14, 15, 16, 17, 18, 19\n")
+        
+        data_str = input("Enter your sales here: ")
+        
+        sales_data = data_str.split(",")
+        
+        if validate_data(sales_data):
+            print("The data you have entered is valid!")
+            break
 
-    data_str = input("Enter your sales here: ")
-    sales_data = data_str.split(",")
-    
-    if validate_data(sales_data):
-        print("The data you have entered is valid.")
-        break
 
 def validate_data(values):
     """
@@ -50,4 +52,4 @@ def validate_data(values):
 
     return True
 
-get_sales_data()
+data = get_sales_data()
