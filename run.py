@@ -62,6 +62,9 @@ def update_sales_worksheet(data):
     sales_worksheet.append_row(data)
     print("You have successfully updated the sales worksheet!\n")
 
+def calculate_surplus_data(Sheet1_row):
+    
+
 def main():
     """
     These are the main programme functions for the datasheet
