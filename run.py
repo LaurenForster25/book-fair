@@ -105,8 +105,8 @@ def get_last_5_entries_sales():
     returning the data as a list
     """
     sales = SHEET.worksheet("Sales")
-    column = sales.col_values(3)
-    print(column)
+    #column = sales.col_values(3)
+    #print(column)
     
     
 def main():
@@ -121,4 +121,6 @@ def main():
    
 print("This is Heavenly Books Data Automation!\n")
 main()
+
+
 
