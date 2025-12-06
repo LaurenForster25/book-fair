@@ -118,9 +118,12 @@ def get_last_5_entries_sales():
         print(ind)
 
 def calculate_stock_data(data):
+    """
+    Calculating the stock average for each book and adding 20%
+    """
     
     
- def main():
+def main():
     """
     These are the main programme functions for the datasheet
     """
