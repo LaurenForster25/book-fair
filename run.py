@@ -62,7 +62,12 @@ def update_sales_worksheet(data):
     sales_worksheet.append_row(data)
     print("You have successfully updated the sales worksheet!\n")
 
-data = get_sales_data()
-sales_data = [int(num) for num in data]
+def main():
+    """
+    These are the main programme functions for the datasheet
+    """
+    data = get_sales_data()
+    sales_data = [int(num) for num in data]
+    update_sales_worksheet(sales_data)
 
-update_sales_worksheet(sales_data)
+main()
