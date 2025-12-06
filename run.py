@@ -59,6 +59,7 @@ def update_sales_worksheet(data):
  """
  print("The sales worksheet is updating...\n")
  sales_worksheet = SHEET.worksheet("Sheet1")
+ sales_worksheet.append_row(data)
 
  data = get_sales_data()
  sales_data = [int(num) for num in data]
