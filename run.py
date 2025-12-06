@@ -23,8 +23,8 @@ def get_sales_data():
     Retrieveing sales figures from user input 
     """
     print("Please enter the sales data from the last book fair")
-    print("The data should be 10 numbers, separated by commas, see example below")
-    print("10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20")
+    print("The data should be 10 numbers, separated by commas, see example below:")
+    print("10, 11, 12, 13, 14, 15, 16, 17, 18, 19")
 
     data_str = input("Enter your sales here: ")
     print(f"The data provided is {data_str}")
