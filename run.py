@@ -78,6 +78,7 @@ def calculate_surplus_data(sales_row):
         surplus = int(stock) - sales
         surplus_data.append(surplus)
     
+    return surplus_data
     
     
 def main():
