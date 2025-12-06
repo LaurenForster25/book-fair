@@ -28,3 +28,5 @@ def get_sales_data():
 
     data_str = input("Enter your sales here: ")
     print(f"The data provided is {data_str}")
+
+get_sales_data()
