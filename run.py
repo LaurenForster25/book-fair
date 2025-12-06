@@ -42,7 +42,7 @@ def validate_data(values):
         [int(value) for value in values]
         if len(values) != 10:
             raise ValueError(
-                f"10 values are required for successful data entry, you only provided {len(values)}"
+                f"10 values are required for successful data entry, you provided {len(values)}"
             )
     except ValueError as e:
         print(f"Invalid data: {e}, please try again!\n") 
