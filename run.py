@@ -70,5 +70,5 @@ def main():
     sales_data = [int(num) for num in data]
     update_sales_worksheet(sales_data)
 
-print("This is Heavenly Books Data Automation!")
+print("This is Heavenly Books Data Automation!\n")
 main()
