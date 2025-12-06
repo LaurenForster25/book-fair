@@ -116,6 +116,8 @@ def get_last_5_entries_sales():
     columns = []
     for ind in range(10):
         print(ind)
+
+def calculate_stock-data(data):
     
     
 def main():
@@ -132,6 +134,7 @@ print("This is Heavenly Books Data Automation!\n")
 #main()
 
 sales_columns = get_last_5_entries_sales()
+calculate_stock_data(sales_columns)
 
 
 
