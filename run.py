@@ -77,7 +77,7 @@ def calculate_surplus_data(sales_row):
     for stock, sales in zip(stock_row, sales_row):
         surplus = stock - sales
         surplus_data.append(surplus)
-    #print(stock_row)
+    
     
 def main():
     """
