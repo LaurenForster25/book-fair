@@ -28,6 +28,7 @@ def get_sales_data():
 
     data_str = input("Enter your sales here: ")
     sales_data = data_str.split(",")
+    print(sales_data)
     #print(f"The data provided is {data_str}")
 
 get_sales_data()
