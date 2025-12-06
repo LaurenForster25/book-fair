@@ -17,3 +17,8 @@ sales = SHEET.worksheet('Sheet1')
 data = sales.get_all_values()
 
 #print(data)
+
+def get_sales_data():
+    """
+    Retrieveing sales figures from user input 
+    """
