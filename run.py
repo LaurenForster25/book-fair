@@ -98,6 +98,7 @@ def main():
     sales_data = [int(num) for num in data]
     update_sales_worksheet(sales_data)
     new_surplus_data = calculate_surplus_data(sales_data)
+    update_surplus_worksheet(new_surplus_data)
    
 print("This is Heavenly Books Data Automation!\n")
 main()
