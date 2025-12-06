@@ -69,6 +69,7 @@ def calculate_surplus_data(Sheet1_row):
     Positive surplus respresents the books that were not bought.
     Negative surplus represents the books that had to be ordered in for the customer.
     """
+    print("Surplus data is being calculated...")
     
 
  
