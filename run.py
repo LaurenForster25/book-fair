@@ -107,6 +107,10 @@ def get_last_5_entries_sales():
     sales = SHEET.worksheet("Sales")
     #column = sales.col_values(3)
     #print(column)
+
+    columns = []
+    for ind in range(10):
+        print(ind)
     
     
 def main():
@@ -120,7 +124,9 @@ def main():
     update_worksheet(new_surplus_data, "Stock")
    
 print("This is Heavenly Books Data Automation!\n")
-main()
+#main()
+
+get_last_5_entries_sales():
 
 
 
