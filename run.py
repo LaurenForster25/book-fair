@@ -39,6 +39,7 @@ def validate_data(values):
     #print(values)
     
     try:
+        [int(value) for value in values]
         if len(values) != 10:
             raise ValueError(
                 f"10 values are required for successful data entry, you only provided {len(values)}"
