@@ -15,3 +15,5 @@ SHEET = GSPREAD_CLIENT.open('book-fair')
 sales = SHEET.worksheet('Sheet1')
 
 data = sales.get_all_values()
+
+print(data)
