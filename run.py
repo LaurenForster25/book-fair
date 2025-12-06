@@ -141,12 +141,13 @@ def main():
     update_worksheet(sales_data, "Sales")
     new_surplus_data = calculate_surplus_data(sales_data)
     update_worksheet(new_surplus_data, "Stock")
+    sales_columns = get_last_5_entries_sales()
+    stock_data = calculate_stock_data(sales_columns)
    
 print("This is Heavenly Books Data Automation!\n")
 #main()
 
-sales_columns = get_last_5_entries_sales()
-stock_data = calculate_stock_data(sales_columns)
+
 
 
 
