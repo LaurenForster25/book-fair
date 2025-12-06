@@ -98,6 +98,14 @@ def calculate_surplus_data(sales_row):
         surplus_data.append(surplus)
     
     return surplus_data
+
+def get_last_5_entries_sales():
+    """
+    This will collect the data from the last five entries of the sales worksheet,
+    returning the data as a list
+    """
+    sales = SHEET.wroksheet("Sales")
+    column = sales.col_values()
     
     
 def main():
