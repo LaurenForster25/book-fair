@@ -27,6 +27,6 @@ def get_sales_data():
     print("10, 11, 12, 13, 14, 15, 16, 17, 18, 19\n")
 
     data_str = input("Enter your sales here: ")
-    print(f"The data provided is {data_str}")
+    #print(f"The data provided is {data_str}")
 
 get_sales_data()
