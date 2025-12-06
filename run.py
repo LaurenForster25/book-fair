@@ -58,6 +58,7 @@ def update_sales_worksheet(data):
  Adding a new row to sales worksheet when updated
  """
  print("The sales worksheet is updating...\n")
+ sales_worksheet = SHEET
 
  data = get_sales_data()
  sales_data = [int(num) for num in data]
