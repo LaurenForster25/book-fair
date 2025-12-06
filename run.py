@@ -63,9 +63,16 @@ def update_sales_worksheet(data):
     print("You have successfully updated the sales worksheet!\n")
 
 def calculate_surplus_data(Sheet1_row):
+    """
+    Comparing the sales with the stock already had to calculate a surplus for each item.
+    The surplus is found by subtracting the sales figure from the stock figure.
+    Positive surplus respresents the books that were not bought.
+    Negative surplus represents the books that had to be ordered in for the customer.
+    """
     
 
-def main():
+ 
+ def main():
     """
     These are the main programme functions for the datasheet
     """
