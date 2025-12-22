@@ -5,6 +5,8 @@
 
 ## Features
 
+# Existing Features 
+
 - The programme is able to retrieve data from the Google Sheet.
 
 - It allows users to enter new sales figures from a recent book fair.
@@ -15,3 +17,8 @@
 
 - The final feature of this data automation programme calculates the stock average for each book and adds 10% to that figure.
 
+# Future Features 
+
+- A future ambition for this project would be to create this data automation on a much bigger scale, not just including the data from a book fair but also the book shop. The book fair data and the book shop data could then be linked and the data added after each book fair could be automatically added to the figures from the shop. Thus further altering the surplus numbers and stock average. A command could be run to tell the user how much stock they should take from the book shop to the fair each month. 
+
+- Another interesting route would be to have the programme forecasting the sales necessary over the next month, or even year, to ensure a profit for a seller.
