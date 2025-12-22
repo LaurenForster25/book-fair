@@ -37,10 +37,6 @@
 - I have had many issues when it comes to the deployment of my project. I followed all the steps provided by Code Institute to set up Heroku and upon trying to build my project from the main branch, an error message was thrown. I have attached an image of this error message below. I followed all of the steps provided in the terminal to move my .venv/ into my gitignore file, however, my saved changes are no longer committing to my github repository, I don't believe this is a mistake in the code, but because the changes are taking so long to save that vscode continues to load the commits without anything actually happening. I understand that deploying to Heroku was a main criteria for passing this project, but since I cannot achieve that right now I have decided to include the link to my github repository page, so there is proof of my project. Above you will also see that I have tested my code and it is all correct.
 - Despite this obstacle, I will be contacting a tutor to try and fix whatever issue has arisen here because I am completely at a loss as to what to do. Here is the link for my github repository: https://github.com/LaurenForster25/book-fair.git
 
-- I also cannot deploy my python programme on github because the Save button is not hightlighted. I don't understand why this is when I've been able to deploy past project onto github. I have attached a screenshot of this below also.
-<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/bd7fbf65-838d-4937-b367-0db1061146c9" />
-
-
 <img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/1c9c388c-d514-4b22-895e-12d9fc4e87eb" />
 
 <img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/4b3e879f-4f86-409d-8f82-d7e087a87b0c" />
